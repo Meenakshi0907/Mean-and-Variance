@@ -44,11 +44,38 @@ It shows the distance of a random variable from its mean. It is calcualted as
 
 
 # Experiment :
-
+![image](https://user-images.githubusercontent.com/94165108/194217926-23a9f93b-6fba-4dc0-9858-36d7adbca945.png)
+![image](https://user-images.githubusercontent.com/94165108/194217948-ce5c45bf-e766-434b-896f-70db1627fc51.png)
 
 # Program :
+'''
+import numpy as np
+L=[int (i) for i in input () .split ()]
+N=1en (L) ; M=max (L)
+x=list ();f=list ()
+for i in range (M+1) :
+C= Q
+for j in range (N) :
+if L[j]=-i:
+c=c+1
+f.append(c)
+x .append (i)
+sf=np. sum(f)
+p=list()
+for i in range (M+1) :
+p-append(f[il/sf)
+mean=p-inner(x,p)
+EX2=np-inner (np. square (x), P)
+var=EX2-mean**2
+SD=np.sqrt(var)
+print("The Hean arrival rate is %.3f "%mean)
+print ("The Variance of arrival from feeder is %.3f
+"%var)
+print ("The Standard deviation of arrival from feeder is %.3F
+"%SD)
+'''
+# Output :
+![image](https://user-images.githubusercontent.com/94165108/194218103-dbe593dd-6f47-425a-8993-16466511eb3f.png)
 
-
-
-
-# Results and Output : 
+#Result:
+Thus the mean and variance of arrival of objects from the feeder using probability distribution is found successfully.
