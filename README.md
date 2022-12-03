@@ -48,7 +48,7 @@ It shows the distance of a random variable from its mean. It is calcualted as
 ![image](https://user-images.githubusercontent.com/94165108/194217948-ce5c45bf-e766-434b-896f-70db1627fc51.png)
 
 # Program :
-'''
+```
 import numpy as np
 L=[int (i) for i in input () .split ()]
 N=1en (L) ; M=max (L)
@@ -73,7 +73,7 @@ print ("The Variance of arrival from feeder is %.3f
 "%var)
 print ("The Standard deviation of arrival from feeder is %.3F
 "%SD)
-'''
+```
 # Output :
 ![image](https://user-images.githubusercontent.com/94165108/194218103-dbe593dd-6f47-425a-8993-16466511eb3f.png)
 
